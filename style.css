@@ -252,11 +252,11 @@ z-index: -1;
 }
 .offerBanner{
     display: flex;
-flex-direction: row;
+flex-direction: column;
 align-items: center;
 padding: 0px;
 gap: 36px;
-
+border: 1px solid saddlebrown;
 position: absolute;
 width: 1400.49px;
 height: 367px;
@@ -270,6 +270,7 @@ height: 367px;
 .offerBanner .offer2{
 width: 682px;
 height: 367px;
+left: 300px;
 }
 .offerBanner .offer1 .text{
     display: flex;
@@ -300,4 +301,97 @@ font-weight: 800;
 font-size: 40px;
 line-height: 47px;
 color: #FFFFFF;
+}
+.offerBanner .offer1 .image{
+    
+position: absolute;
+width: 682.24px;
+height: 367px;
+left: 0px;
+top: 0px;
+}
+.offerBanner .offer1 .image .bg{
+    position: absolute;
+width: 682.24px;
+height: 367px;
+left: 0px;
+top: 0px;
+
+background: #F96893;
+border-radius: 30px;
+z-index: -1;
+
+
+}
+.offerBanner .offer1 .image .bg .images{
+    position: absolute;
+width: 994px;
+height: 376px;
+/* left: 757.24px;
+top: -9px; */
+background-image: url(./images/offer1.jpg);
+background-repeat: no-repeat;
+border-radius: 50px;
+}
+
+
+
+
+.offerBanner .offer2 .text{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 5px;
+
+position: absolute;
+width: 277.63px;
+height: 148px;
+left: 54.88px;
+top: 109px;
+}
+.offerBanner .offer2 .text h3{
+font-family: 'Yellowtail';
+font-weight: 400;
+font-size: 36px;
+color: #7EB693;
+
+}
+.offerBanner .offer2 .text h1{
+font-family: 'Roboto';
+font-weight: 800;
+font-size: 40px;
+color:#274C5B;
+}
+.offerBanner .offer2 .image{
+    
+position: absolute;
+width: 682.24px;
+height: 367px;
+left: 0px;
+top: 0px;
+}
+.offerBanner .offer2 .image .bg{
+    position: absolute;
+width: 682.24px;
+height: 367px;
+left: 0px;
+top: 0px;
+
+background:#EBF0F4;
+border-radius: 30px;
+z-index: -1;
+
+
+}
+.offerBanner .offer2 .image .bg .images{
+    position: absolute;
+position: absolute;
+width: 545.62px;
+height: 819px;
+ left:195px;
+/* top: 456.31px; */ 
+background-image: url(./images/offfer2.jpg);
+background-repeat: no-repeat;
+border-radius: 50px;
 }
