@@ -1,0 +1,252 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+header{
+    display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 69px 162px;
+        gap: 10px;
+    
+        position: absolute;
+        width: 1919.79px;
+        height: 204px;
+        left: 0px;
+        top: 0px;
+    
+        background: rgba(255, 255, 255, 0.9);
+}
+.header{
+    display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        gap: 130px;
+    
+        width: 1595.79px;
+        height: 66px;
+}
+.content1{
+    display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        gap: 150px;
+    
+        width: 912.79px;
+        height: 53.72px;
+}
+.logo{
+    width: 198.79px;
+        height: 53.72px;
+        display: flex;
+        align-items: center;
+}
+.logo img{
+    width: 36.58px;
+        height: 53.72px;
+        left: 0px;
+        top: 0px;
+}
+.logo h3{
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 38px;
+        line-height: 45px;
+        color: #274C5B;
+}
+.menu ul{
+    display: flex;
+   gap: 20px;
+}
+.menu ul li{
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 23px;
+    
+        color: #274C5B;
+}
+.content2{
+    display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 0px;
+        gap: 18px;  
+        width: 553px;
+        height: 66px;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+}
+.search{
+width: 376px;
+    height: 66px;
+    left: 0px;
+    top: 0px;
+    background: #FAFAFA;
+    border-radius: 36px;
+        display: flex;
+        align-items: center;
+        gap: 2px;
+        border: 1px solid #E0E0E0;
+}
+.content2 .searchBar{
+    width: 368px;
+        height: 62px;
+        background: #FAFAFA;
+        border-radius: 36px;
+        border: none;
+        outline: none;
+        margin-top: .2rem;
+}
+.content2 i{
+    width: 56px;
+        height: 56px;
+        left: 314px;
+        top: 5px;
+    border-radius: 50%;
+        background: #7EB693;
+}
+.content2 .cart{
+        width: 159px;
+            height: 66px;
+            left: 394px;
+            top: 0px;
+        display: flex;
+        align-items: center;
+            border: 1px solid #E0E0E0;
+            border-radius: 33px;
+}
+.content2 .cart h4{
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 21px;
+        color: #274C5B;
+}
+.content2 .cart i{
+    width: 56px;
+        height: 56px;
+        left: 400px;
+        top: 5px;
+    border-radius: 50%;
+        background: #274C5B;
+}
+.banner{
+width: 1920px;
+    height: 898px;
+    left: 0px;
+    top: 204px;
+
+}
+.banner .content{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 23px;
+
+position: absolute;
+width: 530px;
+height: 405px;
+left: 260px;
+top: 451px;
+
+}
+.banner .content .title{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 530px;
+height: 303px;
+}
+.banner .content .title h1{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 800;
+font-size: 70px;
+line-height: 82px;
+
+color: #274C5B;
+}
+.banner .content .title h3{
+    font-family: 'Yellowtail';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 49px;
+color: #68A47F;
+}
+.banner .content button{
+padding: 28px 39px;
+gap: 10px;
+width: 220px;
+height: 79px;
+background: #EFD372;
+border-radius: 16px;
+font-family: 'Roboto';
+font-weight: 700;
+font-size: 20px;
+color: #274C5B;
+border: none;
+}
+.banner .content button .text{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 10px;
+width: 142px;
+height: 23px;
+
+}
+.banner .background{
+    position: absolute;
+width: 1920px;
+height: 898px;
+left: 0px;
+top: 204px;
+background-color: #F1EFF0;
+z-index: -1;
+}
+.banner .background .bg-pattern{
+       position: absolute;
+width: 1920px;
+height: 898px;
+left: 0px;
+    background-image: url(./images/bgpattern.png);
+    background-repeat: no-repeat;
+    z-index: 999;
+}
+.banner .image{
+    position: absolute;
+width: 1920px;
+height: 898px;
+left: 0px;
+}
+.banner .image .photo{
+    background-image: url(./images/photo.png);
+    background-repeat: no-repeat;
+position: absolute;
+width: 1534px;
+height: 1148px;
+left: 900px;
+top: 200px;
+background-blend-mode:multiply;
+/* transform: matrix(0, -1, -1, 0, 0, 0); */
+z-index: -1;
+}
