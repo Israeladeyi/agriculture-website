@@ -250,3 +250,54 @@ background-blend-mode:multiply;
 /* transform: matrix(0, -1, -1, 0, 0, 0); */
 z-index: -1;
 }
+.offerBanner{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 36px;
+
+position: absolute;
+width: 1400.49px;
+height: 367px;
+left: 260px;
+top: 1256px;
+}
+.offerBanner .offer1{
+width: 682px;
+height: 367px;
+}
+.offerBanner .offer2{
+width: 682px;
+height: 367px;
+}
+.offerBanner .offer1 .text{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 5px;
+
+position: absolute;
+width: 277.63px;
+height: 148px;
+left: 54.88px;
+top: 109px;
+}
+.offerBanner .offer1 .text h3{
+font-family: 'Yellowtail';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 49px;
+color: #FFFFFF;
+
+}
+.offerBanner .offer1 .text h1{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 800;
+font-size: 40px;
+line-height: 47px;
+color: #FFFFFF;
+}
